@@ -1,0 +1,32 @@
+footer {
+  margin-top: 100px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  color: grey;
+}
+.icons {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  margin-bottom: 16px;
+  justify-content: center;
+  gap: 100px;
+}
+.line {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 768px) {
+  .line {
+    width: 90%;
+  }
+}

@@ -1,0 +1,44 @@
+.movie-card {
+  position: relative;
+}
+.poster {
+  height: 240px;
+  width: 100%;
+}
+.date {
+  color: gray;
+  font-size: 10px;
+  text-align: left;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.rate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+.ratings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 34%;
+}
+.ratings img {
+  height: 13px;
+}
+.ratings span {
+  font-size: 10px;
+}
+.movie-title {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 5px;
+}
+.movie-genre {
+  color: gray;
+  font-size: 10px;
+  text-align: left;
+  margin-left: 5px;
+  font-weight: bold;
+}
