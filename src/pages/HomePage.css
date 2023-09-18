@@ -97,6 +97,11 @@
   margin-bottom: 16px;
   margin-top: 48px;
 }
+.search-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
+}
 .each {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -120,6 +125,9 @@
     margin-left: 0px;
   }
   .each {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .search-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }

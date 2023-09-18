@@ -137,17 +137,11 @@ function HomePage() {
                   searchResults.length > 0 && (
                     <div className="search-result">
                       <h1>Your Search Result</h1>
-                      <Container
-                        style={{
-                          display: "grid",
-                          gridTemplateColumns: "repeat(4, 1fr)",
-                          gap: "48px",
-                        }}
-                      >
+                      <div className="search-grid">
                         {searchResults.map((movie) => (
                           <MovieCard key={movie.id} movie={movie} />
                         ))}
-                      </Container>
+                      </div>
                     </div>
                   )}
                 <h1 className="head">Top 10 Movies</h1>
